@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Gap Education | Bridge Your College to Career Gap</title>
+  
+  <!-- Google Fonts for modern and clean typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Link to External CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER & NAVIGATION BAR
+       ============================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon">🎓</span>
+        <span class="logo-text">Skill Gap <span class="highlight">Education</span></span>
+      </a>
+
+      <!-- Mobile Menu Button (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#gap-analysis" class="nav-link">Skill Gap</a></li>
+          <li><a href="#roadmap" class="nav-link">Learning Roadmap</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==============================================
+       HERO / HOME SECTION
+       ============================================== -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge">🚀 For Ambitious Students & Beginners</div>
+        <h1 class="hero-title">Discover the Skills You Need for Your <span class="gradient-text">Dream Career</span></h1>
+        <p class="hero-description">
+          Welcome to <strong>Skill Gap Education</strong>! In college, we learn theories, but companies hire for practical skills. We help students bridge the gap between classroom academics and high-demand industry capabilities.
+        </p>
+        <div class="hero-buttons">
+          <a href="#gap-analysis" class="btn btn-primary">Check Your Skill Gap</a>
+          <a href="#skills" class="btn btn-secondary">Explore Essential Skills</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Core Skill Tracks</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Beginner Friendly</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">Zero</span>
+            <span class="stat-label">Prior Experience Needed</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-card main-card">
+          <div class="card-tag">Industry Reality</div>
+          <h3>Theory ➔ Practical Projects</h3>
+          <p>College gives you the foundation. Real projects give you the job.</p>
+          <div class="progress-preview">
+            <div class="bar-label"><span>College Focus (Theory)</span><span>40%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+            <div class="bar-label"><span>Industry Requirement (Applied)</span><span>90%</span></div>
+            <div class="progress-bar"><div class="progress-fill highlight-fill" style="width: 90%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       SKILLS SECTION
+       ============================================== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">Must-Have Capabilities</span>
+        <h2 class="section-title">Important Skills for Modern Tech Careers</h2>
+        <p class="section-subtitle">
+          These five foundational skills are in high demand across tech companies, startups, and innovative organizations worldwide.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill 1: Python -->
+        <div class="skill-card">
+          <div class="skill-icon python-icon">🐍</div>
+          <h3 class="skill-title">Python Programming</h3>
+          <p class="skill-desc">
+            Python is simple, readable, and widely used in AI, Data Science, automation, and backend development. Perfect for your first coding language.
+          </p>
+          <ul class="skill-tags">
+            <li>Syntax Basics</li>
+            <li>Automation</li>
+            <li>Data Analysis</li>
+          </ul>
+          <a href="#roadmap" class="skill-link">View Python Roadmap &rarr;</a>
+        </div>
+
+        <!-- Skill 2: Web Development -->
+        <div class="skill-card">
+          <div class="skill-icon web-icon">🌐</div>
+          <h3 class="skill-title">Web Development</h3>
+          <p class="skill-desc">
+            Learn HTML, CSS, and JavaScript to build modern, interactive websites and apps. It gives you immediate visual feedback and real portfolio pieces.
+          </p>
+          <ul class="skill-tags">
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+          </ul>
+          <a href="#roadmap" class="skill-link">View Web Roadmap &rarr;</a>
+        </div>
+
+        <!-- Skill 3: AI & Machine Learning -->
+        <div class="skill-card">
+          <div class="skill-icon ai-icon">🤖</div>
+          <h3 class="skill-title">AI & Machine Learning</h3>
+          <p class="skill-desc">
+            The fastest-growing field. Learn how machines make predictions, recognize images, and process text with algorithms and data models.
+          </p>
+          <ul class="skill-tags">
+            <li>Machine Learning</li>
+            <li>Prompt Engineering</li>
+            <li>Math & Logic</li>
+          </ul>
+          <a href="#roadmap" class="skill-link">View AI Roadmap &rarr;</a>
+        </div>
+
+        <!-- Skill 4: Communication Skills -->
+        <div class="skill-card">
+          <div class="skill-icon comm-icon">💬</div>
+          <h3 class="skill-title">Communication Skills</h3>
+          <p class="skill-desc">
+            Being a great engineer isn't just about code. You must clearly explain your ideas, write documentation, and collaborate effectively with teammates.
+          </p>
+          <ul class="skill-tags">
+            <li>Clear Explanations</li>
+            <li>Teamwork</li>
+            <li>Documentation</li>
+          </ul>
+          <a href="#roadmap" class="skill-link">View Soft Skills Guide &rarr;</a>
+        </div>
+
+        <!-- Skill 5: Problem Solving -->
+        <div class="skill-card">
+          <div class="skill-icon problem-icon">🧩</div>
+          <h3 class="skill-title">Problem Solving & DSA</h3>
+          <p class="skill-desc">
+            Data Structures and Algorithms train your brain to break down complex issues into logical, step-by-step solutions tested in technical interviews.
+          </p>
+          <ul class="skill-tags">
+            <li>Algorithmic Thinking</li>
+            <li>Data Structures</li>
+            <li>Debugging</li>
+          </ul>
+          <a href="#roadmap" class="skill-link">View Logic Roadmap &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       SKILL GAP ANALYSIS SECTION
+       ============================================== -->
+  <section class="section gap-section" id="gap-analysis">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">Understand The Reality</span>
+        <h2 class="section-title">Current Skills vs. Dream Career Requirements</h2>
+        <p class="section-subtitle">
+          What is a "Skill Gap"? It is the difference between what colleges teach you to pass exams and what top recruiters look for when hiring.
+        </p>
+      </div>
+
+      <!-- Comparison Cards -->
+      <div class="comparison-grid">
+        <div class="comparison-card current-card">
+          <div class="card-status-badge current-badge">What Students Usually Have (Current)</div>
+          <h3 class="comparison-title">Academic Baseline</h3>
+          <ul class="comparison-list">
+            <li>❌ <strong>Rote Learning:</strong> Memorizing syntax to pass written exams.</li>
+            <li>❌ <strong>Outdated Tech:</strong> Studying basic C/C++ or turbo compilers without modern tools.</li>
+            <li>❌ <strong>Zero Git/GitHub:</strong> Code saved only in zip files or college pendrives.</li>
+            <li>❌ <strong>Shy Communication:</strong> Hesitant to speak up, give presentations, or ask questions.</li>
+            <li>❌ <strong>Empty Portfolio:</strong> Relying solely on GPA with no live, working projects.</li>
+          </ul>
+        </div>
+
+        <div class="comparison-card dream-card">
+          <div class="card-status-badge dream-badge">What Companies Want (Dream Career)</div>
+          <h3 class="comparison-title">Industry Readiness</h3>
+          <ul class="comparison-list">
+            <li>✅ <strong>Practical Problem Solving:</strong> Writing working, clean code to solve real issues.</li>
+            <li>✅ <strong>Modern Tooling:</strong> Proficient in VS Code, Git, GitHub, APIs, and modern libraries.</li>
+            <li>✅ <strong>Version Control:</strong> Active GitHub repository showcasing code history.</li>
+            <li>✅ <strong>Confident Communication:</strong> Can explain system designs and trade-offs clearly.</li>
+            <li>✅ <strong>Demonstrated Work:</strong> 2-3 live projects deployed on the web with links.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Interactive Career Skill Gap Checker -->
+      <div class="interactive-tool">
+        <div class="tool-header">
+          <h3>⚡ Interactive Skill Gap Analyzer</h3>
+          <p>Select your dream career path below to discover the exact skills you need to build right now:</p>
+        </div>
+
+        <div class="career-selector">
+          <label for="careerSelect">Select Dream Role:</label>
+          <select id="careerSelect" class="styled-select">
+            <option value="web">Web Developer (Frontend / Full Stack)</option>
+            <option value="python">Python / Backend Developer</option>
+            <option value="ai">AI / Data Science Engineer</option>
+            <option value="software">Software Engineer (Product Companies)</option>
+          </select>
+        </div>
+
+        <!-- Dynamic Output Container -->
+        <div id="gapResultCard" class="result-card">
+          <!-- Populated dynamically by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       LEARNING ROADMAP SECTION
+       ============================================== -->
+  <section class="section roadmap-section" id="roadmap">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">Step-by-Step Guide</span>
+        <h2 class="section-title">Beginner's Learning Roadmap</h2>
+        <p class="section-subtitle">
+          Follow these 5 simple, structured steps throughout your first and second years to become industry-ready before graduation.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- Step 1 -->
+        <div class="timeline-step">
+          <div class="step-marker">1</div>
+          <div class="step-content">
+            <span class="step-phase">Months 1 - 2</span>
+            <h3 class="step-title">Master Core Programming Fundamentals</h3>
+            <p class="step-desc">
+              Pick <strong>one</strong> beginner-friendly language (Python, C, or Java). Focus on variables, loops, conditional statements, and functions. Do not rush into frameworks yet!
+            </p>
+            <div class="step-checklist">
+              <span class="check-item">✔ Loops & Conditionals</span>
+              <span class="check-item">✔ Functions & Logic</span>
+              <span class="check-item">✔ 30 Simple Practice Problems</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-step">
+          <div class="step-marker">2</div>
+          <div class="step-content">
+            <span class="step-phase">Months 3 - 4</span>
+            <h3 class="step-title">Learn Version Control & Essential Tools</h3>
+            <p class="step-desc">
+              Install VS Code. Learn Git commands (`git init`, `add`, `commit`, `push`) and create your GitHub account. Host all your practice programs online.
+            </p>
+            <div class="step-checklist">
+              <span class="check-item">✔ Git & GitHub Basics</span>
+              <span class="check-item">✔ Command Line / Terminal</span>
+              <span class="check-item">✔ VS Code Shortcuts</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-step">
+          <div class="step-marker">3</div>
+          <div class="step-content">
+            <span class="step-phase">Months 5 - 7</span>
+            <h3 class="step-title">Choose a Specialization Track</h3>
+            <p class="step-desc">
+              Pick one path: Web Development (HTML/CSS/JS), Data & AI (Python/Pandas), or App Development. Build 2 small projects you can click and interact with.
+            </p>
+            <div class="step-checklist">
+              <span class="check-item">✔ Hands-on Mini Projects</span>
+              <span class="check-item">✔ Read Documentation</span>
+              <span class="check-item">✔ Deploy Live (e.g. GitHub Pages)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-step">
+          <div class="step-marker">4</div>
+          <div class="step-content">
+            <span class="step-phase">Months 8 - 10</span>
+            <h3 class="step-title">Strengthen Problem Solving & Soft Skills</h3>
+            <p class="step-desc">
+              Solve basic Data Structures & Algorithms problems on LeetCode/HackerRank. Practice speaking English, writing technical posts on LinkedIn, and explaining your code out loud.
+            </p>
+            <div class="step-checklist">
+              <span class="check-item">✔ Arrays, Strings & Search</span>
+              <span class="check-item">✔ Mock Interviews</span>
+              <span class="check-item">✔ Technical Presentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-step">
+          <div class="step-marker">5</div>
+          <div class="step-content">
+            <span class="step-phase">Months 11 - 12</span>
+            <h3 class="step-title">Build a Portfolio & Apply for Internships</h3>
+            <p class="step-desc">
+              Create a 1-page modern resume. Put your GitHub and project links at the top. Apply for early internships, open-source programs, and college hackathons!
+            </p>
+            <div class="step-checklist">
+              <span class="check-item">✔ Polished 1-Page Resume</span>
+              <span class="check-item">✔ GitHub Showcase</span>
+              <span class="check-item">✔ LinkedIn Profile Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       CONTACT SECTION
+       ============================================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">Get In Touch</span>
+        <h2 class="section-title">Have Questions or Need Guidance?</h2>
+        <p class="section-subtitle">
+          Send us a message! Whether you need help choosing a programming language or finding resources, we are here to support your journey.
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Why Reach Out?</h3>
+          <p>
+            Starting your engineering journey can feel overwhelming. We are here to help first-year students navigate:
+          </p>
+          <ul class="info-list">
+            <li>🎯 Selecting your first programming language</li>
+            <li>📚 Finding free, quality learning resources</li>
+            <li>💡 Ideas for beginner portfolio projects</li>
+            <li>🤝 Joining student developer communities</li>
+          </ul>
+
+          <div class="quick-tip-card">
+            <h4>💡 Pro Tip for 1st Year Students:</h4>
+            <p>Don't try to learn everything at once. Master one language first, write code every day, and never be afraid of errors!</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="e.g. Rahul Sharma" required>
+              <span class="error-text" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="e.g. rahul@example.com" required>
+              <span class="error-text" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="studentYear">College Year</label>
+              <select id="studentYear" name="studentYear" class="styled-select">
+                <option value="1st Year">1st Year (Fresher)</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="Final Year">Final Year</option>
+                <option value="Other">Other / Self-Learner</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message or Question <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what career you are aiming for or what guidance you need..." required></textarea>
+              <span class="error-text" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Send Message</button>
+          </form>
+
+          <!-- Form feedback alert -->
+          <div id="formAlert" class="form-alert" style="display: none;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">🎓</span>
+          <span class="logo-text">Skill Gap <span class="highlight">Education</span></span>
+        </div>
+        <p class="footer-tagline">
+          Empowering undergraduate students to bridge the gap between classroom theory and real-world tech careers.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Essential Skills</a></li>
+          <li><a href="#gap-analysis">Skill Gap Analysis</a></li>
+          <li><a href="#roadmap">Learning Roadmap</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-note">
+        <h4>Student Tip</h4>
+        <p>Consistency beats intensity. Coding for 45 minutes every day is 10x better than cramming for 8 hours on Sunday.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>&copy; 2026 Skill Gap Education. Built with clean HTML, CSS & JavaScript for Students.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link to External JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
